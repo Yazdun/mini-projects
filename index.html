@@ -5,9 +5,54 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Vite App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Lady Maria Card</title>
   </head>
-  <body class="bg-zinc-900 text-zinc-100">
-    <div>hello there!</div>
+  <body
+    class="flex items-center justify-center h-screen bg-gradient-to-t from-[#300d13] to-red-900 text-zinc-100"
+  >
+    <main role="main">
+      <article class="w-full max-w-lg overflow-hidden shadow-2xl rounded-2xl">
+        <figure class="relative">
+          <div
+            class="absolute flex items-center justify-center bg-green-500 bg-opacity-75 rounded-full w-7 h-7 animate-pulse left-3 top-3"
+            aria-hidden="true"
+          >
+            <i class="text-sm text-black fa-solid fa-arrow-trend-up"></i>
+          </div>
+          <div
+            class="absolute bottom-0 left-0 right-0 flex justify-center h-40 bg-gradient-to-t from-black via-transparent to-transparent"
+            aria-hidden="true"
+          ></div>
+          <img
+            src="./public/image.jpg"
+            alt="Lady Maria of the Astral Clocktower"
+          />
+        </figure>
+        <div class="flex flex-col items-center gap-5 p-5 text-center bg-black">
+          <h2 class="text-xl font-semibold">
+            Lady Maria of the Astral Clocktower
+          </h2>
+          <p class="text-zinc-400">
+            Lady Maria of the Astral Clocktower was a citizen of Cainhurst and
+            is a distant relative to Queen Annalise. She was also one of the
+            first hunters to join the nightly hunt.
+          </p>
+          <a
+            href="#"
+            class="flex items-center gap-2 py-5 text-gray-300 transition-all bg-gray-500 bg-opacity-30 px-7 hover:bg-opacity-20 rounded-xl"
+          >
+            <i class="fa-solid fa-play"></i>
+            Watch the Trailer
+          </a>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
