@@ -5,9 +5,53 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Vite App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Artorias the Abysswalker</title>
   </head>
-  <body class="bg-zinc-900 text-zinc-100">
-    <div>hello there!</div>
+  <body class="bg-gradient-to-t from-red-950 to-orange-600 text-zinc-100">
+    <main>
+      <section class="flex items-center justify-center min-h-screen p-5">
+        <article
+          class="w-full max-w-md overflow-hidden bg-[#110602] lg:max-w-2xl rounded-xl lg:flex lg:items-center"
+        >
+          <figure class="relative w-full">
+            <img
+              src="./public/image.jpg"
+              alt="Artorias the Abysswalker"
+              class="object-cover w-full h-80"
+            />
+            <div class="absolute bottom-0 left-0 right-0 flex p-2">
+              <div
+                class="flex items-center justify-center gap-2 px-5 py-4 font-semibold text-blue-500 bg-blue-800 rounded-md bg-opacity-30"
+              >
+                <i class="fa-solid fa-tags"></i>
+                25% Discount
+              </div>
+            </div>
+          </figure>
+          <div class="flex flex-col items-start w-full gap-4 p-5">
+            <h1 class="text-5xl font-semibold text-white">BioShock</h1>
+            <p class="leading-7 text-slate-300">
+              BioShock is a retrofuturistic video game series created by Ken
+              Levine, published by 2K and developed by several studios,
+              including Irrational Games and 2K Marin.
+            </p>
+            <a
+              href="#"
+              class="flex items-center gap-2 px-3 py-2 font-semibold uppercase outline rounded-xl"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+              Add to card
+            </a>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
