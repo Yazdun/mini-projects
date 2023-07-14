@@ -12,11 +12,38 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Vanilla</title>
+    <title>Bowser</title>
   </head>
-  <body>
-    <main>
-      <h1>hello world</h1>
+  <body
+    class="flex items-center justify-center h-screen bg-gradient-to-t to-red-950 from-[#b71c3a] text-zinc-100"
+  >
+    <main role="main">
+      <article class="w-full max-w-lg overflow-hidden shadow-2xl rounded-2xl">
+        <figure class="relative">
+          <div
+            class="absolute bottom-0 left-0 right-0 flex justify-center h-40 bg-gradient-to-t from-[#b71c3a] to-transparent"
+            aria-hidden="true"
+          ></div>
+          <img src="./public/image.jpg" alt="bowser" />
+        </figure>
+        <div
+          class="flex flex-col items-center gap-5 p-5 text-center bg-[#b71c3a]"
+        >
+          <h2 class="text-5xl font-bold">Bowser</h2>
+          <p class="text-xl text-white">
+            Lady Maria of the Astral Clocktower was a citizen of Cainhurst and
+            is a distant relative to Queen Annalise. She was also one of the
+            first hunters to join the nightly hunt.
+          </p>
+          <a
+            href="#"
+            class="flex items-center gap-2 py-5 text-xl font-bold text-black transition-all bg-green-500 px-7 hover:bg-black hover:text-white rounded-xl"
+          >
+            <i class="fa-solid fa-play"></i>
+            Watch the Trailer
+          </a>
+        </div>
+      </article>
     </main>
   </body>
 </html>
