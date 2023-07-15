@@ -14,9 +14,43 @@
     />
     <title>Vanilla</title>
   </head>
-  <body>
-    <main>
-      <h1>hello world</h1>
+  <body
+    class="bg-center bg-no-repeat bg-cover bg-hero-mobile md:bg-hero-desktop"
+  >
+    <main class="flex h-screen">
+      <section
+        class="h-full bg-gradient-to-t w-full flex flex-col items-center text-center gap-5 justify-end md:bg-gradient-to-r lg:via-[rgba(0,0,0,0.4)] md:text-left md:items-start md:justify-center lg:px-20 text-white px-5 py-10 via-[rgba(0,0,0,0.7)] from-black to-transparent"
+      >
+        <h1 class="font-mono text-xl font-bold md:text-5xl md:max-w-md">
+          Kill Bill: Volume 1
+        </h1>
+        <p class="max-w-sm text-sm leading-7 text-slate-300">
+          Kill Bill: Volume 1 is a 2003 American martial arts film written and
+          directed by Quentin Tarantino. It stars Uma Thurman as the Bride, a
+          former assassin who swears revenge of her unborn child on her
+          ex-teammates (Lucy Liu, Michael Madsen, Daryl Hannah, and Vivica A.
+          Fox) and their leader, Bill (David Carradine), who tried to kill her
+          and her unborn child. Her journey takes her to Tokyo, where she
+          battles the yakuza.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-5">
+          <a
+            class="flex items-center gap-2 py-4 font-semibold text-black px-7 glowing-button rounded-xl bg-gradient-to-tr from-orange-400 to-orange-600 hover:bg-opacity-75"
+            href="#"
+          >
+            <i class="fa-solid fa-play"></i>
+            Watch Now</a
+          >
+          <a
+            href="#"
+            class="flex items-center gap-2 py-4 bg-white px-7 bg-opacity-20 rounded-xl"
+          >
+            <i class="fa-solid fa-circle-info"></i>
+            View Info</a
+          >
+        </div>
+      </section>
     </main>
   </body>
 </html>
