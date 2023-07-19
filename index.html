@@ -12,11 +12,35 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Vanilla</title>
+    <title>Link</title>
   </head>
   <body>
-    <main>
-      <h1>hello world</h1>
+    <main
+      class="flex items-center justify-center h-screen bg-gradient-to-t from-zinc-950 to-black"
+    >
+      <article class="w-full max-w-sm text-white bg-black rounded-xl boxshadow">
+        <div class="relative">
+          <div
+            class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent"
+          ></div>
+          <img src="./link.jpg" alt="link" class="rounded-t-xl" />
+        </div>
+        <div class="flex flex-col items-center gap-5 p-5 text-center">
+          <h1 class="text-3xl font-black uppercase">Link</h1>
+          <p class="text-sm text-slate-400">
+            Link is a fictional character and the protagonist of Nintendo's
+            video game franchise The Legend of Zelda. He was created by Japanese
+            video game designer Shigeru Miyamoto.
+          </p>
+          <a
+            href="#"
+            class="flex items-center gap-2 px-5 py-3 font-semibold text-blue-400 rounded-md bg-blue-950"
+          >
+            <i class="fa-solid fa-eye"></i>
+            Read More
+          </a>
+        </div>
+      </article>
     </main>
   </body>
 </html>

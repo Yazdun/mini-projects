@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.boxshadow {
+  box-shadow: rgb(52, 255, 68) 0px 0px 0px 2px, rgb(0, 0, 0) 10px -10px 0px -3px,
+    rgb(24, 143, 34) 10px -10px, rgb(0, 0, 0) 20px -20px 0px -3px,
+    rgb(22, 126, 30) 20px -20px, rgb(0, 0, 0) 30px -30px 0px -3px,
+    rgb(14, 78, 19) 30px -30px, rgb(0, 0, 0) 40px -40px 0px -3px,
+    rgb(10, 58, 14) 40px -40px;
+}
