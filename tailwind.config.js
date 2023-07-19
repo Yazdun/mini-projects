@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        desktop: "url('/desktop.jpg')",
+        tablet: "url('/tablet.jpg')",
+        mobile: "url('/mobile.jpg')",
+      },
+    },
   },
   plugins: [],
 };
