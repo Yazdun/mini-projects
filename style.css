@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  border-radius: 50px;
+  background: #cbcdcc;
+  box-shadow: 20px 20px 60px #adaead, -20px -20px 60px #e9eceb;
+}
