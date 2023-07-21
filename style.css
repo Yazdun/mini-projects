@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.mobile-sidebar {
+  left: -100%;
+  transition: left 0.3s ease-in-out;
+}
+.sidebar-open {
+  left: 0;
+}
+
 @keyframes glowing {
   0% {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);

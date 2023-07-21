@@ -15,34 +15,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <title>Spider-Man: Across the Spider-Verse</title>
+    <title>Marvel's Spider-Man 2</title>
   </head>
   <body class="bg-black">
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 right-0 p-5 lg:px-10">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center">
+          <a href="#" class="text-xl font-bold text-white"> Spider-Man 2</a>
+        </div>
+        <div class="items-center hidden space-x-4 md:flex">
+          <a href="#" class="text-white">Home</a>
+          <a href="#" class="text-white">Store</a>
+          <a href="#" class="text-white">Characters</a>
+          <a href="#" class="text-white">Blog</a>
+        </div>
+        <!-- Mobile Menu Button (shown on small screens) -->
+        <div class="md:hidden">
+          <button id="mobileMenuBtn" class="text-white focus:outline-none">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Sidebar -->
+    <div
+      id="mobileSidebar"
+      class="fixed top-0 right-0 flex flex-col justify-center w-full h-screen p-4 text-white bg-blue-800 backdrop-blur-lg bg-opacity-30 mobile-sidebar"
+    >
+      <div class="flex flex-col px-10 text-3xl text-center space-y-7">
+        <a href="#">Home</a>
+        <a href="#">Store</a>
+        <a href="#">Characters</a>
+        <a href="#">Blog</a>
+      </div>
+      <!-- Close Button -->
+      <button id="closeBtn" class="absolute text-5xl top-5 right-10">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
     <main class="h-screen bg-center bg-no-repeat bg-cover bg-hero-desktop">
       <section
-        class="h-full bg-gradient-to-t flex flex-col items-center text-center gap-5 justify-end text-white px-5 py-10 via-[rgba(0,0,0,0.7)] from-black to-transparent"
+        class="flex flex-col items-center justify-end h-full gap-5 px-5 py-10 text-center text-white md:p-10 bg-gradient-to-t md:items-start md:text-left from-black to-transparent"
       >
-        <h1 class="font-mono text-3xl font-bold lg:text-5xl">
-          Spider-Man: Across the Spider-Verse
-        </h1>
-        <p class="max-w-lg text-sm leading-7 text-slate-300">
-          After reuniting with Gwen Stacy, Brooklyn's full-time, friendly
-          neighborhood Spider-Man is catapulted across the Multiverse, where he
-          encounters a team of Spider-People charged with protecting its very
-          existence.
+        <div>
+          <h1 class="font-mono text-2xl font-bold md:text-5xl">
+            Marvel's Spider-Man 2
+          </h1>
+          <p class="text-zinc-300">October 20, 2023</p>
+        </div>
+        <p class="max-w-lg text-sm leading-7 text-zinc-400">
+          Marvel's Spider-Man 2 is an upcoming action-adventure game developed
+          by Insomniac Games and published by Sony Interactive Entertainment
         </p>
 
         <div class="flex flex-wrap justify-center gap-5">
           <a
-            class="flex items-center gap-2 py-4 px-7 glowing-button rounded-xl bg-gradient-to-tr from-red-900 to-red-700 hover:bg-opacity-75"
+            class="flex items-center gap-2 py-4 text-blue-300 bg-blue-900 px-7 glowing-button rounded-xl bg-opacity-60"
             href="#"
           >
-            <i class="fa-solid fa-play"></i>
-            Watch Now</a
+            <i class="fa-solid fa-cart-shopping"></i>
+            Pre-Order</a
           >
           <a
             href="#"
-            class="flex items-center gap-2 py-4 bg-white px-7 bg-opacity-20 rounded-xl"
+            class="flex items-center gap-2 py-4 bg-white px-7 bg-opacity-10 rounded-xl"
           >
             <i class="fa-solid fa-circle-info"></i>
             View Info</a
@@ -50,5 +100,20 @@
         </div>
       </section>
     </main>
+
+    <script>
+      // JavaScript to handle mobile menu toggle
+      const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+      const mobileSidebar = document.getElementById("mobileSidebar");
+      const closeBtn = document.getElementById("closeBtn");
+
+      mobileMenuBtn.addEventListener("click", () => {
+        mobileSidebar.classList.toggle("sidebar-open");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        mobileSidebar.classList.remove("sidebar-open");
+      });
+    </script>
   </body>
 </html>
