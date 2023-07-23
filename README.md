@@ -17,16 +17,23 @@
     <a href="https://github.com/Yazdun/mini-projects/issues">Report Bug</a>
   </p>
 
+[![Discord](https://img.shields.io/badge/-Discord-7289DA?logo=Discord&logoColor=white&color=7289DA)](https://discord.gg/MyKECvHW)
 [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=Tailwind%20CSS&logoColor=white&color=38B2AC)](https://tailwindcss.com/)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=JavaScript&logoColor=black&color=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&color=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=Vite&logoColor=white&color=646CFF)](https://vitejs.dev/)
+
+  <a href="https://discord.gg/MyKECvHW">
+    <img src="./public/divsplash.jpg" alt="divsplash" >
+  </a>
 
 </div>
 
 ## About The Project
 
 This repository contains a collection of mini-projects for beginners. The main purpose of this repository is to help beginners to learn and practice their skills. All the projects are built using HTML, TailwindCSS and JavaScript.
+
+Created with ❤️ by [Yazdun](https://twitter.com/Yazdun) and [Velp](https://twitter.com/velpcode)
 
 ## List of Projects
 
