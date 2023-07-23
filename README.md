@@ -24,7 +24,7 @@
 [![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=Vite&logoColor=white&color=646CFF)](https://vitejs.dev/)
 
   <a href="https://discord.gg/MyKECvHW">
-    <img src="./public/divsplash.jpg" alt="divsplash" >
+    <img src="./public/banner.jpg" alt="divsplash" >
   </a>
 
 </div>
@@ -131,5 +131,5 @@ DivSplash is a community of developers, designers, creators and self improvers. 
 [Join DivSplash Discord Server 🚀](href="https://discord.gg/MyKECvHW")
 
   <a href="https://discord.gg/MyKECvHW">
-    <img src="./public/divsplash.jpg" alt="divsplash" >
+    <img src="./public/banner.jpg" alt="divsplash" >
   </a>
