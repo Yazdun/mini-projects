@@ -7,7 +7,7 @@
 <h1 align="center">Mini Projects</h1>
 
   <p align="center">
-    Collection of mini-projects for beginners
+    🔥 Collection of COOL mini-projects for beginners 🔥
     <br />
     <a href="https://discord.gg/MyKECvHW"><strong>Join Our Discord Server »</strong></a>
     <br />
