@@ -116,3 +116,13 @@ can follow the below steps:
    ```sh
    npm run dev
    ```
+
+## Join Our Community On Discord 💥
+
+DivSplash is a community of developers, designers, creators and self improvers. We are a community of like-minded people who want to help each other and grow together. We have a dedicated tech channel where you can ask questions and get help. We also have channels for other topics like programming, design, self-improvement, etc.
+
+[Join DivSplash Discord Server 🚀](href="https://discord.gg/MyKECvHW")
+
+  <a href="https://discord.gg/MyKECvHW">
+    <img src="./public/divsplash.jpg" alt="divsplash" >
+  </a>
