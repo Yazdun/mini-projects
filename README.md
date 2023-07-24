@@ -24,7 +24,7 @@
 [![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=Vite&logoColor=white&color=646CFF)](https://vitejs.dev/)
 
   <a href="https://discord.gg/MyKECvHW">
-    <img src="./public/banner.jpg" alt="divsplash" >
+    <img src="./public/banner.png" alt="divsplash" >
   </a>
 
 </div>
@@ -128,8 +128,8 @@ can follow the below steps:
 
 DivSplash is a community of developers, designers, creators and self improvers. We are a community of like-minded people who want to help each other and grow together. We have a dedicated tech channel where you can ask questions and get help. We also have channels for other topics like programming, design, self-improvement, etc.
 
-[Join DivSplash Discord Server 🚀](href="https://discord.gg/MyKECvHW")
+[Join DivSplash Discord Server 🚀](https://discord.gg/MyKECvHW)
 
   <a href="https://discord.gg/MyKECvHW">
-    <img src="./public/banner.jpg" alt="divsplash" >
+    <img src="./public/banner.png" alt="divsplash" >
   </a>
