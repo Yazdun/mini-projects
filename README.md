@@ -24,7 +24,7 @@
 [![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=Vite&logoColor=white&color=646CFF)](https://vitejs.dev/)
 
   <a href="https://discord.gg/MyKECvHW">
-    <img src="./public/banner.png" alt="divsplash" >
+    <img src="https://res.cloudinary.com/dakts9ect/image/upload/v1690244194/banner_p88lzx.png" alt="divsplash" >
   </a>
 
 </div>
@@ -34,6 +34,40 @@
 This repository contains a collection of mini-projects for beginners. The main purpose of this repository is to help beginners to learn and practice their skills. All the projects are built using HTML, TailwindCSS and JavaScript.
 
 Created with ❤️ by [Yazdun](https://twitter.com/Yazdun) and [Velp](https://twitter.com/velpcode)
+
+## Getting started
+
+To run the project locally, you need to have
+[Node.js](https://nodejs.org/en/download) installed on your machine. Then, you
+can follow the below steps:
+
+1. Clone the project by running the following command on the terminal 🔽
+   ```sh
+   git clone git@github.com:Yazdun/mini-projects.git
+   ```
+2. Go into the project directory 🔽
+
+   ```sh
+   cd mini-projects
+   ```
+
+3. Install all the dependencies ✅
+   ```sh
+   npm install
+   ```
+4. Start the application development server 🚀
+
+   ```sh
+   npm run dev
+   ```
+
+## How this repository works?
+
+This repository contains a collection of mini-projects. Each project is in a separate branch. You can view the list of projects below. To view a project, you need to checkout to the respective branch. For example, if you want to view the `Responsive Bioshock Card 1` project, you need to checkout to the `card-component_bioshock_1` branch.
+
+```sh
+git checkout card-component_bioshock_1
+```
 
 ## List of Projects
 
@@ -99,31 +133,6 @@ Created with ❤️ by [Yazdun](https://twitter.com/Yazdun) and [Velp](https://t
 | 58     | Responsive Zelda Hero Section 1              | [View Branch](https://github.com/Yazdun/mini-projects/tree/hero-component_zelda_2)       |
 | 59     | Responsive Zelda Hero Section 2              | [View Branch](https://github.com/Yazdun/mini-projects/tree/hero-component_zelda_2)       |
 
-## Getting started
-
-To run the project locally, you need to have
-[Node.js](https://nodejs.org/en/download) installed on your machine. Then, you
-can follow the below steps:
-
-1. Clone the project by running the following command on the terminal 🔽
-   ```sh
-   git clone git@github.com:Yazdun/mini-projects.git
-   ```
-2. Go into the project directory 🔽
-
-   ```sh
-   cd mini-projects
-   ```
-
-3. Install all the dependencies ✅
-   ```sh
-   npm install
-   ```
-4. Start the application development server 🚀
-   ```sh
-   npm run dev
-   ```
-
 ## Join Our Community On Discord 💥
 
 DivSplash is a community of developers, designers, creators and self improvers. We are a community of like-minded people who want to help each other and grow together. We have a dedicated tech channel where you can ask questions and get help. We also have channels for other topics like programming, design, self-improvement, etc.
@@ -131,5 +140,5 @@ DivSplash is a community of developers, designers, creators and self improvers. 
 [Join DivSplash Discord Server 🚀](https://discord.gg/MyKECvHW)
 
   <a href="https://discord.gg/MyKECvHW">
-    <img src="./public/banner.png" alt="divsplash" >
+    <img src="https://res.cloudinary.com/dakts9ect/image/upload/v1690244194/banner_p88lzx.png" alt="divsplash" >
   </a>
