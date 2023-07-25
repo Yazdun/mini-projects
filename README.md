@@ -35,6 +35,12 @@ This repository contains a collection of mini-projects for beginners. The main p
 
 Created with ❤️ by [Yazdun](https://twitter.com/Yazdun) and [Velp](https://twitter.com/velpcode)
 
+## Bioshock Card 1
+
+  <a href="https://discord.gg/MyKECvHW">
+    <img src="./public/cover.png" alt="divsplash" >
+  </a>
+
 ## List of Projects
 
 | Number | Title                                        | Git branch                                                                               |
