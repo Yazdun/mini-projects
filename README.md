@@ -9,7 +9,7 @@
   <p align="center">
     🔥 Collection of COOL mini-projects for beginners 🔥
     <br />
-    <a href="https://discord.gg/MyKECvHW"><strong>Join Our Discord Server »</strong></a>
+    <a href="https://discord.gg/hBsnN9dQ"><strong>Join Our Discord Server »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Yazdun/mini-projects/issues">Request Feature</a>
@@ -17,13 +17,13 @@
     <a href="https://github.com/Yazdun/mini-projects/issues">Report Bug</a>
   </p>
 
-[![Discord](https://img.shields.io/badge/-Discord-7289DA?logo=Discord&logoColor=white&color=7289DA)](https://discord.gg/MyKECvHW)
+[![Discord](https://img.shields.io/badge/-Discord-7289DA?logo=Discord&logoColor=white&color=7289DA)](https://discord.gg/hBsnN9dQ)
 [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=Tailwind%20CSS&logoColor=white&color=38B2AC)](https://tailwindcss.com/)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=JavaScript&logoColor=black&color=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&color=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=Vite&logoColor=white&color=646CFF)](https://vitejs.dev/)
 
-  <a href="https://discord.gg/MyKECvHW">
+  <a href="https://discord.gg/hBsnN9dQ">
     <img src="https://res.cloudinary.com/dakts9ect/image/upload/v1690244194/banner_p88lzx.png" alt="divsplash" >
   </a>
 
@@ -137,8 +137,8 @@ git checkout card-component_bioshock_1
 
 DivSplash is a community of developers, designers, creators and self improvers. We are a community of like-minded people who want to help each other and grow together. We have a dedicated tech channel where you can ask questions and get help. We also have channels for other topics like programming, design, self-improvement, etc.
 
-[Join DivSplash Discord Server 🚀](https://discord.gg/MyKECvHW)
+[Join DivSplash Discord Server 🚀](https://discord.gg/hBsnN9dQ)
 
-  <a href="https://discord.gg/MyKECvHW">
+  <a href="https://discord.gg/hBsnN9dQ">
     <img src="https://res.cloudinary.com/dakts9ect/image/upload/v1690244194/banner_p88lzx.png" alt="divsplash" >
   </a>
